@@ -345,7 +345,8 @@
       "metadata": {
         "id": "I3icGytliIWG"
       },
-      "execution_count": null,
+      widgets.Dropdown.create('Which food do you want to search: ', options=list(nutri_data.keys()), value=list(nutri_data.keys())[0], description='food', disabled=False, continuous_update=False, style=None, button_style='', layout=None, tooltip='Description', icon='info')
+
       "outputs": []
     },
     {
